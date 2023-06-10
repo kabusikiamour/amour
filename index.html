@@ -233,19 +233,18 @@
 		<style>
 			.container {
 				display: flex;
-				flex-direction: row;
-				align-items: center;
-				justify-content: center;
+				flex-direction: column;
 			}
 	
 			.container p {
-				margin-top: 900px; /* デスクトップ用の間隔 */
+				margin-bottom: 900px; /* デスクトップ用の間隔 */
 			}
 	
 			/* スマートフォン用のスタイル */
-			.container p {
-			        margin-top: 10px; /* スマートフォン用の間隔 */2
-				
+			@media (max-width: 600px) {
+				.container p {
+					margin-bottom: 5px; /* スマートフォン用の間隔 */
+				}
 			}
 		</style>
 
