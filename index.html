@@ -194,12 +194,29 @@
 </body>
 
 <section>
-	<div class="container">	
+	<div class="container0">	
 		<p>		
 		</p>
 	</div>
 </section>
-
+	
+<style>
+			.container0 {
+				display: flex;
+				flex-direction: column;
+			}
+	
+			.container0 p {
+				margin-bottom: 900px; /* デスクトップ用の間隔 */
+			}
+	
+			/* スマートフォン用のスタイル */
+			@media (max-width: 60px) {
+				.container0 p {
+					margin-bottom: 5px; /* スマートフォン用の間隔 */
+				}
+			}
+		</style>
 
 
 <body>
@@ -225,28 +242,31 @@
 			</p>
 			<br>
 			<br>
-			<div class="image-container">
+			<div class="container1">
 				<img src="004.jpg" alt="画像1" width="800" height="500" class="active">
 			</div>
 		</section>
+	        <style>
 
-		<style>
-			.container {
+			.container1 {
 				display: flex;
 				flex-direction: column;
+				align-items: center;
 			}
 	
-			.container p {
-				margin-bottom: 900px; /* デスクトップ用の間隔 */
+			.container1 img {
+				margin-bottom: 90px; /* デスクトップ用の間隔 */
 			}
 	
 			/* スマートフォン用のスタイル */
-			@media (max-width: 60px) {
-				.container p {
+			@media (max-width: 600px) {
+				.container1 img {
 					margin-bottom: 5px; /* スマートフォン用の間隔 */
 				}
 			}
 		</style>
+
+		
 
 		<br>
 		<br>
@@ -273,7 +293,7 @@
 				<img src="イラストロゴ料金プラン.jpg" alt="画像1" width="700" height="200" class="active">
 			</div>
 		</section>
-        <br>
+                <br>
 		<br>
 		<br>
 		<br>
