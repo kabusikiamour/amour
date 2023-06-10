@@ -199,24 +199,24 @@
 		</p>
 	</div>
 </section>
-	
+
 <style>
-			.container0 {
-				display: flex;
-				flex-direction: column;
-			}
-	
-			.container0 p {
-				margin-bottom: 1800px; /* デスクトップ用の間隔 */
-			}
-	
-			/* スマートフォン用のスタイル */
-			@media (max-width: 60px) {
-				.container0 p {
-					margin-bottom: 5px; /* スマートフォン用の間隔 */
-				}
-			}
-		</style>
+	.container0 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.container0 p {
+		margin-bottom: 1500px; /* デスクトップ用の間隔 */
+	}
+
+	/* スマートフォン用のスタイル */
+	@media (max-width: 600px) {
+		.container0 p {
+			margin-bottom: 5px; /* スマートフォン用の間隔 */
+		}
+	}
+</style>
 
 
 <body>
@@ -246,7 +246,8 @@
 				<img src="004.jpg" alt="画像1" width="800" height="500" class="active">
 			</div>
 		</section>
-	        <style>
+
+		<style>
 
 			.container1 {
 				display: flex;
@@ -255,7 +256,7 @@
 			}
 	
 			.container1 img {
-				margin-bottom: 500px; /* デスクトップ用の間隔 */
+				margin-bottom: 300px; /* デスクトップ用の間隔 */
 			}
 	
 			/* スマートフォン用のスタイル */
@@ -265,8 +266,6 @@
 				}
 			}
 		</style>
-
-		
 
 
 		<section id="gallery">
@@ -282,8 +281,8 @@
 				<img src="イラストロゴ料金プラン.jpg" alt="画像1" width="700" height="200" class="active">
 			</div>
 		</section>
-	      
-                <style>
+
+		<style>
 
 			.container2 {
 				display: flex;
@@ -292,7 +291,7 @@
 			}
 	
 			.container2 img {
-				margin-bottom: 500px; /* デスクトップ用の間隔 */
+				margin-bottom: 300px; /* デスクトップ用の間隔 */
 			}
 	
 			/* スマートフォン用のスタイル */
@@ -376,68 +375,82 @@
 				accordion.classList.toggle("active");
 			  }
 			</script>
-		  </head>
-		  <body>
-			  <h2 id="jump-target2">よくあるご質問</h2>
-			  <br>
-			  <br>
-			  <br>
+		</head>
+
+		<body>
+			<h2 id="jump-target2">よくあるご質問</h2>
+			<br>
+			<br>
+			<br>
 		  
-			  <button class="accordion" onclick="toggleAccordion(0)">アニメーション動画と実写動画、どちらも対応可能ですか？</button>
-			  <div class="panel">
+			<button class="accordion" onclick="toggleAccordion(0)">アニメーション動画と実写動画、どちらも対応可能ですか？</button>
+			<div class="panel">
 				<p>はい、対応できます。
 				  アニメーション･実写に限らず、ドローン・CG・VR・モーショングラフィックなど<br>各プロフェッショナルが在籍していますので、幅広く多彩な映像表現をご提案できます。</p>
-			  </div>
+			</div>
 			
-			  <button class="accordion" onclick="toggleAccordion(1)">動画制作のお見積りだけでもお願いできますか？</button>
-			  <div class="panel">
+			<button class="accordion" onclick="toggleAccordion(1)">動画制作のお見積りだけでもお願いできますか？</button>
+			<div class="panel">
 				<p>もちろん可能です。まずはお気軽にお問い合わせください。
 				  詳細をヒアリングの上、お見積書を作成いたします。<br>参考映像や料金をその場でディスカッションしながらご紹介できますので、<br> Webミーティングorご訪問によるヒアリングもご検討ください。</p>
-			  </div>
+			</div>
 		  
-			  <button class="accordion" onclick="toggleAccordion(2)">映像制作にはどれくらいの金額がかかりますか？</button>
-			  <div class="panel">
+			<button class="accordion" onclick="toggleAccordion(2)">映像制作にはどれくらいの金額がかかりますか？</button>
+			<div class="panel">
 				<p>内容・制作物によって金額が変動します。参考価格は下記をご覧ください。
 				  料金プラン</p>
-			  </div>
+			</div>
 		  
-			  <button class="accordion" onclick="toggleAccordion(3)">映像制作がはじめてなのですが、どういったところに注意すればいいですか？</button>
-			  <div class="panel">
+			<button class="accordion" onclick="toggleAccordion(3)">映像制作がはじめてなのですが、どういったところに注意すればいいですか？</button>
+			<div class="panel">
 				<p>「何の映像をつくるのか」「どのような目的で作るのか」を映像の制作前に決めておくことが大切です。<br>
 				  ヒアリング時に、御社にとって最も効果的な動画をご提案いたしますので、ご安心ください。<br> 全く分からないときは丸投げしていただいても構いません！<br>
 				  ご予算に応じてさまざまな切り口から動画の企画案をご提案いたします。</p>
-			  </div>
+			</div>
 		  
-			  <button class="accordion" onclick="toggleAccordion(4)">複数社によるコンペでもご提案いただけますか？</button>
-			  <div class="panel">
+			<button class="accordion" onclick="toggleAccordion(4)">複数社によるコンペでもご提案いただけますか？</button>
+			<div class="panel">
 				<p>複数社によるコンペでも提案いたします。その際は、事前に詳細をご教示ください。<br>
 				  弊社は動画制作会社の中でも、コンペ勝利率が圧倒的に高いです。<br>稟議用の資料作成も行いますので、お気軽にお問い合わせください。</p>
-			  </div>
+			</div>
 		  
-			  <button class="accordion" onclick="toggleAccordion(5)">映像の編集だけを依頼することはできますか？</button>
-			  <div class="panel">
+			<button class="accordion" onclick="toggleAccordion(5)">映像の編集だけを依頼することはできますか？</button>
+			<div class="panel">
 				<p>TV放送用からWeb用、またタブレット用とさまざまなメディアやデバイスに適した映像編集に対応しております。<br>
 				  撮影素材がなく完成したDVDしかお持ちでない場合でも対応可能です。</p>
-			  </div>
+			</div>
 			
 			  <!-- 繰り返しの質問と回答を追加する場合は、上記のパターンをコピーして追加してください -->
 			
-			  <script>
+			<script>
 				// 初めのアコーディオンを開く
 				toggleAccordion(0);
-			  </script>
-		  </body>
-		<br>
-		<br>
-		<br>   
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+			</script>
+
+			<div class="container3">
+				<p></p>
+			</div>
+
+			<style>
+
+				.container3 {
+					display: flex;
+					flex-direction: column;
+				}
+		
+				.container3 p {
+					margin-bottom: 300px; /* デスクトップ用の間隔 */
+				}
+		
+				/* スマートフォン用のスタイル */
+				@media (max-width: 600px) {
+					.container3 p {
+						margin-bottom: 5px; /* スマートフォン用の間隔 */
+					}
+				}
+			</style>
+		</body>
+		
 
 
 		<section>
@@ -520,12 +533,10 @@
 		</form>
 	  </center>
 	</div>
-    <br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+   
+	<div class="container3">
+		<p></p>
+	</div>   
 
 	<title>Responsive Table</title>
 	<style type="text/css">
@@ -568,17 +579,8 @@
         .kaisha th {width:auto;}
         }
 	</style>
-	    <br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+
+
 
   <center>
     <div class="section-title">
@@ -635,7 +637,3 @@
   </center>
 </body>
 </html>
-
-
-
-
